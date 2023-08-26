@@ -1,0 +1,253 @@
+
+body{ 
+  margin: 0px;
+  padding: 0px;
+}
+.header{ 
+  height: 80px;
+  margin:10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+nav ul li {
+  display: inline-block;                
+  list-style-type: none ;                
+  padding:10px;                  
+  
+}
+ul li a {
+  color: black;
+letter-spacing: 0.1em;
+}
+ul li a :hover{
+text-decoration: underline;
+color:red;
+}
+#h1{
+  font-size: 1.5em;
+  font-weight: bold;
+  float: left;
+}
+.menu li  { 
+  float: inline-end;
+  padding: 35px;
+
+
+}
+.menu li a
+{
+  text-decoration: none;
+}
+#home{
+  text-decoration: underline;
+  color: red;
+}
+h1{
+   font-family:"cookie";
+   float: left;
+}
+    
+ .gallery { 
+      
+  display: grid;
+  grid-template-columns:  1fr 1fr ;
+  grid-template-rows: 300px 300px;
+  gap: 10px;
+  
+  
+}
+  .gallery img { 
+      width: 100%;
+      height:100%;
+      object-fit: cover
+     }
+
+     .gallery li {
+      list-style-type: none;
+      height: 300px;
+      width: 300px;
+      flex-grow: 1;
+        }
+        .firth
+        {
+float: left;
+        }
+     
+       .menu1 {
+        display: flex;                /* Transformation en flexbox */
+        padding:0;                    /* Suppression des marges internes */
+                                     /* Ajout de la couleur d'arrière-plan */
+        
+      }
+      .menu1 li  {
+        list-style-type:none;       /* Suppression des puces */
+      text-decoration: none;
+      }
+      .menu1 a {
+        display:block;                /* Transformation en block */
+        min-width: 120px;             /* Largeur minimale des liens */   
+        
+        /* margin: 0.5rem;               Marges externes */
+        /* padding: 0.4rem 0;            Marges internes */
+        text-align: right;           
+        
+        
+          text-decoration: none;
+                      /* Ajout des effets de transition */
+      }
+      
+       .galerie {
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: repeat(2,400);
+        gap: 10px;
+        justify-self:center;
+        float: left;
+      }
+        .galerie img {
+            width: 100%;
+            height:100%;
+            object-fit: cover;
+           }
+           .galerie li {
+            list-style-type: none;
+            height: 300px;
+            width: 300px;
+            flex-grow: 1;
+          
+              }
+              .galerie1 {
+      
+                display: grid;
+                grid-template-columns:100px 100px 100px  ; 
+                
+                gap: 10px;
+                justify-self:center;
+              }
+                .galerie1 img {
+                    width: 100%;
+                    height:100%;
+                    object-fit: cover;
+                   }
+  
+        .galerie2 {
+          display: grid;
+           grid-template-columns: repeat(6,1fr); 
+                 }
+          .galerie2 img {
+              width:100%;
+              height:100%;
+              object-fit: cover;
+             }
+             
+           .container {
+            display: block;
+            position:relative;
+        }
+        .container .text {
+            background: (0, 0, 0, 0.8);
+            z-index: 1;
+            position: absolute;
+            text-align: left;
+            font-family: Georgia;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 30%;
+            color: white;
+            width: 70%;
+        }
+    
+.material-symbols-outlined
+ {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.foot
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr); 
+}
+.foot li {
+  list-style-type:none;
+}
+
+
+           
+          
+                
+/*#h22{
+
+  margin:auto;
+  text-align:center;
+  float: top ;
+  font-size: larger;
+}
+
+
+
+/*.gallery 
+{ 
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  flex-grow: 2;
+
+
+
+}
+.gallery img { 
+  margin: auto;
+  width: 800px;
+  height: 450px;;
+  object-fit: cover;
+  
+ 
+}
+
+.gallery 
+{
+  display: grid;
+  grid-template-columns:800px 550px 200px  ;
+  grid-template-rows: 200px 600px;
+  gap: 15px;
+}
+#one { height: 600px;
+  width: 6000px;
+
+}
+/*.two{
+
+}
+.three{
+
+}
+
+.five
+ { grid-column: 1;
+  grid-row: 4;
+
+}
+ */
+
+
+
+
+      
+    
+  
+  
+
+ 
+ 
+
+
+
+
+
+
